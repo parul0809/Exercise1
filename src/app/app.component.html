@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Enter required fields -
+  </h1>
+ 
+  First Field (2 digit number only)<input type="number" #N (keyup)="onKey_N(N.value)" (mouseup)="onKey_N(N.value)" (mousedown)="onKey_N(N.value)" maxlength = 2  required><br/>
+  Second Field (1 digit number only)<input type="number" #p (keyup)="onKey_p(p.value)" (mouseup)="onKey_p(p.value)" (mousedown)="onKey_p(p.value)" maxlength = 1 required><br/>
+  Third Field (1 digit number only)<input type="number" #q (keyup)="onKey_q(q.value)" (mouseup)="onKey_q(q.value)" (mousedown)="onKey_q(q.value)" maxlength = 1 required><br/>
+  <button type="submit"(click)="onClickMe()">GO-->></button>
+  <p class="error">{{outputError}}</p>
+<br/><br/>
+Output --><br/> {{outputString}}
+</div>
+
+

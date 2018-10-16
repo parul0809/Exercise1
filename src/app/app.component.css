@@ -1,0 +1,9 @@
+input{
+    width: 46px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.error{
+    color: red;
+}
